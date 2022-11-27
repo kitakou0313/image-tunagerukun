@@ -10,4 +10,4 @@
 
 ### 必要な外部package
 - `requirements.txt`に記載
-- `pip install -r requirements.txt`
+- `pip install -r requirements.txt`で必要なpackageをインストールできる
