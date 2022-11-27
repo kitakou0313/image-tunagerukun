@@ -7,3 +7,7 @@
 ### main.py
 - 画像を読み込んでまとめてサムネイルを生成する
 - 各種定数で1画像あたりのサイズ、1サムネイルに含まれる画像数など変更可能
+
+### 必要な外部package
+- `requirements.txt`に記載
+- `pip install -r requirements.txt`
