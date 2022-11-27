@@ -1,11 +1,9 @@
-# python-remotedev-template
-Visual Studio CodeのRemote developmentを用いてDocker container上で作業するためのテンプレート
+# 画像を良い感じに結合してサムネ作る君
 
-## 起動手順
-1. `.devcontainer/Dockerfile`最終行の`ENV PYTHONPATH=...`内の`/workspace/`以下をリポジトリ名に変更
-    - リポジトリ内で定義したpackageを探索可能にするため
+## 各コードの解説
+### gen-test-images.py
+- テスト用の画像を生成してくれるファイル
 
-## ToDo
-- unrootでのコンテナ起動
-    - `.git`以下の所有権がrootになり、コンテナ外でcommitできないことがある
-    - コンテナ外で作業しないのでいらないかも
+### main.py
+- 画像を読み込んでまとめてサムネイルを生成する
+- 各種定数で1画像あたりのサイズ、1サムネイルに含まれる画像数など変更可能
