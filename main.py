@@ -20,11 +20,11 @@ if __name__ == "__main__":
     IMAGE_FILE_NAME_PATTERN = "{}.png"
 
     # サムネイルの一行に入る画像数
-    NUMBER_IMAGES_IN_ONE_THUMNAIL_COLUMN = 10
+    NUMBER_IMAGES_IN_ONE_THUMNAIL_COLUMN = 6
     # サムネイルの列数
     NUMBER_IMAGES_IN_ONE_THUMNAIL_ROW = 6
 
-    # サムネイルの画像数
+    # 1サムネイルに含まれる画像数
     NUMBER_IMAGES_IN_ONE_THUMNAIL = NUMBER_IMAGES_IN_ONE_THUMNAIL_ROW * \
         NUMBER_IMAGES_IN_ONE_THUMNAIL_COLUMN
 
